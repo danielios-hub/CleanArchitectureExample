@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		C7EB4E3229E7124400E5A764 /* CleanArchitectureExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E3129E7124400E5A764 /* CleanArchitectureExampleApp.swift */; };
-		C7EB4E3429E7124400E5A764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E3329E7124400E5A764 /* ContentView.swift */; };
 		C7EB4E3629E7124500E5A764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7EB4E3529E7124500E5A764 /* Assets.xcassets */; };
 		C7EB4E3929E7124500E5A764 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7EB4E3829E7124500E5A764 /* Preview Assets.xcassets */; };
+		C7EB4E4429E727A000E5A764 /* ListPlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E4329E727A000E5A764 /* ListPlayersView.swift */; };
+		C7EB4E4629E727DA00E5A764 /* ListPlayersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E4529E727DA00E5A764 /* ListPlayersPresenter.swift */; };
+		C7EB4E4B29E729C100E5A764 /* PlayerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E4A29E729C100E5A764 /* PlayerEntity.swift */; };
+		C7EB4E4D29E729DC00E5A764 /* FetchPlayersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E4C29E729DC00E5A764 /* FetchPlayersUseCase.swift */; };
+		C7EB4E4F29E729FB00E5A764 /* PlayersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E4E29E729FB00E5A764 /* PlayersRepository.swift */; };
+		C7EB4E5129E72A2C00E5A764 /* PlayersRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E5029E72A2C00E5A764 /* PlayersRepositoryImpl.swift */; };
+		C7EB4E5329E72A4D00E5A764 /* NetworkPlayersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E5229E72A4D00E5A764 /* NetworkPlayersDataSource.swift */; };
+		C7EB4E5529E73BF200E5A764 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E5429E73BF200E5A764 /* Helpers.swift */; };
+		C7EB4E5729E73D1C00E5A764 /* ListPlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E5629E73D1C00E5A764 /* ListPlayersViewModel.swift */; };
+		C7EB4E5929E73EB700E5A764 /* UseCaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EB4E5829E73EB700E5A764 /* UseCaseFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7EB4E2E29E7124400E5A764 /* CleanArchitectureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanArchitectureExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7EB4E3129E7124400E5A764 /* CleanArchitectureExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanArchitectureExampleApp.swift; sourceTree = "<group>"; };
-		C7EB4E3329E7124400E5A764 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7EB4E3529E7124500E5A764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7EB4E3829E7124500E5A764 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7EB4E4329E727A000E5A764 /* ListPlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlayersView.swift; sourceTree = "<group>"; };
+		C7EB4E4529E727DA00E5A764 /* ListPlayersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlayersPresenter.swift; sourceTree = "<group>"; };
+		C7EB4E4A29E729C100E5A764 /* PlayerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerEntity.swift; sourceTree = "<group>"; };
+		C7EB4E4C29E729DC00E5A764 /* FetchPlayersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPlayersUseCase.swift; sourceTree = "<group>"; };
+		C7EB4E4E29E729FB00E5A764 /* PlayersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersRepository.swift; sourceTree = "<group>"; };
+		C7EB4E5029E72A2C00E5A764 /* PlayersRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersRepositoryImpl.swift; sourceTree = "<group>"; };
+		C7EB4E5229E72A4D00E5A764 /* NetworkPlayersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPlayersDataSource.swift; sourceTree = "<group>"; };
+		C7EB4E5429E73BF200E5A764 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		C7EB4E5629E73D1C00E5A764 /* ListPlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlayersViewModel.swift; sourceTree = "<group>"; };
+		C7EB4E5829E73EB700E5A764 /* UseCaseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +69,11 @@
 		C7EB4E3029E7124400E5A764 /* CleanArchitectureExample */ = {
 			isa = PBXGroup;
 			children = (
+				C7EB4E3F29E7275F00E5A764 /* ListPlayers */,
 				C7EB4E3129E7124400E5A764 /* CleanArchitectureExampleApp.swift */,
-				C7EB4E3329E7124400E5A764 /* ContentView.swift */,
 				C7EB4E3529E7124500E5A764 /* Assets.xcassets */,
 				C7EB4E3729E7124500E5A764 /* Preview Content */,
+				C7EB4E5429E73BF200E5A764 /* Helpers.swift */,
 			);
 			path = CleanArchitectureExample;
 			sourceTree = "<group>";
@@ -65,6 +84,70 @@
 				C7EB4E3829E7124500E5A764 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7EB4E3F29E7275F00E5A764 /* ListPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB4E4229E7277200E5A764 /* Data */,
+				C7EB4E4129E7276B00E5A764 /* Presentation */,
+				C7EB4E4029E7276700E5A764 /* Domain */,
+			);
+			path = ListPlayers;
+			sourceTree = "<group>";
+		};
+		C7EB4E4029E7276700E5A764 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB4E4929E729AD00E5A764 /* Interfaces */,
+				C7EB4E4829E729A600E5A764 /* UseCases */,
+				C7EB4E4729E729A100E5A764 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		C7EB4E4129E7276B00E5A764 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB4E4329E727A000E5A764 /* ListPlayersView.swift */,
+				C7EB4E4529E727DA00E5A764 /* ListPlayersPresenter.swift */,
+				C7EB4E5629E73D1C00E5A764 /* ListPlayersViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C7EB4E4229E7277200E5A764 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB4E5029E72A2C00E5A764 /* PlayersRepositoryImpl.swift */,
+				C7EB4E5229E72A4D00E5A764 /* NetworkPlayersDataSource.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C7EB4E4729E729A100E5A764 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB4E4A29E729C100E5A764 /* PlayerEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		C7EB4E4829E729A600E5A764 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB4E4C29E729DC00E5A764 /* FetchPlayersUseCase.swift */,
+				C7EB4E5829E73EB700E5A764 /* UseCaseFactory.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		C7EB4E4929E729AD00E5A764 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB4E4E29E729FB00E5A764 /* PlayersRepository.swift */,
+			);
+			path = Interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7EB4E3429E7124400E5A764 /* ContentView.swift in Sources */,
+				C7EB4E5129E72A2C00E5A764 /* PlayersRepositoryImpl.swift in Sources */,
+				C7EB4E4B29E729C100E5A764 /* PlayerEntity.swift in Sources */,
+				C7EB4E5329E72A4D00E5A764 /* NetworkPlayersDataSource.swift in Sources */,
+				C7EB4E5929E73EB700E5A764 /* UseCaseFactory.swift in Sources */,
+				C7EB4E4F29E729FB00E5A764 /* PlayersRepository.swift in Sources */,
+				C7EB4E5529E73BF200E5A764 /* Helpers.swift in Sources */,
+				C7EB4E4D29E729DC00E5A764 /* FetchPlayersUseCase.swift in Sources */,
+				C7EB4E4629E727DA00E5A764 /* ListPlayersPresenter.swift in Sources */,
+				C7EB4E4429E727A000E5A764 /* ListPlayersView.swift in Sources */,
 				C7EB4E3229E7124400E5A764 /* CleanArchitectureExampleApp.swift in Sources */,
+				C7EB4E5729E73D1C00E5A764 /* ListPlayersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
